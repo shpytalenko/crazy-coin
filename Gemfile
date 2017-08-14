@@ -38,13 +38,13 @@ gem 'payola-payments', git: 'https://github.com/alekseenko/payola'
 gem 'sucker_punch'
 gem 'pg'
 gem 'therubyracer', :platform=>:ruby
-gem "less-rails" #Sprockets (what Rails 3.1 uses for its asset pipeline) supports LESS
+#gem "less-rails" #Sprockets (what Rails 3.1 uses for its asset pipeline) supports LESS
 gem 'twitter-bootstrap-rails', :git => 'git://github.com/seyhunak/twitter-bootstrap-rails.git'
 gem 'simple_form'
 gem 'nested_form'
 gem 'ransack', github: 'activerecord-hackery/ransack'
 gem 'ransack_simple_form'
-gem 'heroku'
+#gem 'heroku'
 group :development do
   gem 'better_errors'
   gem 'hub', :require=>nil
