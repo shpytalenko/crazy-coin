@@ -54,7 +54,7 @@ production:
   adapter:  postgresql
   host:     localhost
   encoding: unicode
-  database: crazy_messager_production
+  database: crazy_messager_development
   pool:     5
   username: myapp
   password:
